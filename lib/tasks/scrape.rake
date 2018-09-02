@@ -41,6 +41,8 @@ namespace :scrape do
             circle.youtube_url = link
           when "www.nicovideo.jp" then
             circle.niconico_url = link
+          when nil then
+            next
           else
             circle.homepage_url = link
           end
