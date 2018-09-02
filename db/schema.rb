@@ -10,13 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_09_02_152010) do
+ActiveRecord::Schema.define(version: 2018_09_02_153848) do
 
   create_table "circles", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "name"
     t.text "description"
     t.string "homepage_url"
     t.string "twitter_url"
+    t.string "soundcloud_url"
+    t.string "youtube_url"
+    t.string "niconico_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

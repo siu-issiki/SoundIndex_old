@@ -19,6 +19,8 @@ gem 'webpacker'
 # gem 'mini_racer', platforms: :ruby
 # Web Scraping
 gem 'nokogiri'
+# 日本語URL対応
+gem 'addressable', require: 'addressable/uri'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
